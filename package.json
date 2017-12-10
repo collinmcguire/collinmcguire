@@ -1,0 +1,27 @@
+{
+  "name": "collinmcguire",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinmcguire/collinmcguire.git"
+  },
+  "author": "Collin McGuire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinmcguire/collinmcguire/issues"
+  },
+  "homepage": "https://github.com/collinmcguire/collinmcguire#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "less": "^2.7.3",
+    "less-middleware": "^2.2.1",
+    "nodemon": "^1.12.5"
+  }
+}

@@ -1,0 +1,9 @@
+body{
+  background-color: #f5f5f5;
+}
+
+div{
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
