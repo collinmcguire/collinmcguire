@@ -1,0 +1,25 @@
+.cover-container{
+  max-width: 42em;
+}
+
+.nav-masthead{
+  color: #333;
+  border-bottom-color: #333;
+}
+
+.nav-masthead .active{
+  color: #333;
+  border-bottom-color: #333;
+}
+
+.nav-masthead .nav-link{
+  color: #333;
+  padding: .25rem;
+  font-weight: 700;
+  border-bottom: .25rem solid transparent;
+}
+
+.btn-secondary{
+  color: #fff;
+  background-color: #333;
+}

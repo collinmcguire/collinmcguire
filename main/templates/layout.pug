@@ -1,0 +1,32 @@
+{% load static %}
+
+!!! 5
+html.h-100(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(name='description' content')
+		meta(name='author' content='Collin McGuire')
+
+		title Collin McGuire - Portfolio
+
+		<script src="{%static '/js/bootstrap.js'%}"></script>
+
+		<link href="{%static '/css/bootstrap.css'%}" rel="stylesheet"/>
+
+		<link href="{%static '/css/styles.css'%}" rel='stylesheet'/>
+
+		meta(name='theme-color' content='#7952b3')
+
+body.d-flex.h-100.text-center.text-black.bg-light
+		div.cover-container.d-flex.w-100.h-100.p-3.mx-auto.flex-column
+				header.mb-auto
+					div
+						h3.float-md-start.mb-0 CMG
+
+						nav.nav.nav-masthead.justify-content-center.float-md-end
+							a.nav-link.active(aria-current='page' href='/') Home
+							a.nav-link(href='/projects/') Projects
+							a.nav-link(href='/contact') Contact
+				block content
+				footer.mt-auto.text-white-50
